@@ -23,11 +23,12 @@
 - [ ] incollarlo nella prima regola `background-image` del foglio di stile **skin.css** come raffigurato qui sotto. 
 ```
 /*** skin.css ***/
+
 body{
     background-image: url("percorso/verso/immagine/bgskin.jpg");
     background-size:cover;
     background-repeat: no-repeat;
-...ecc...
+    ...ecc...
 
 ```
 
