@@ -1,0 +1,8 @@
+SECONDA SOLUZIONE:
+
+
+Inserire questo codice come ULTIMO elemento prima della chiusura del tag </head>
+
+    <link rel="stylesheet" type="text/css" href="skin.css">
+    <script src="exit.js" type="text/javascript"></script>
+   

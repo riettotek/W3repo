@@ -1,11 +1,11 @@
 //variabili
-var exitUrl = "https://www.google.com";
+let exitUrl = "https://www.google.com";
 
 
 //carico il DOM
 window.addEventListener('load', function(){
     
-    console.log("inizializzo la skin");
+    console.log("inizializzo l'area cliccabile");
     var body = document.getElementsByTagName('body')[0];
 
     //creo il tag <a>
@@ -19,26 +19,16 @@ window.addEventListener('load', function(){
      span.appendChild(t);
      ancora.appendChild(span);
    
-     ancora.setAttribute("id", "skin-link");
+     ancora.setAttribute("id", "skin-link");// attributo id
+     console.log('setto attributo id per il CSS');
+     ancora.setAttribute("href", exitUrl); // attributo exit
+     console.log("setto exit Url");
+     ancora.setAttribute("target", "_blank"); // attributo nuova scheda browser
+     console.log("setto modo di exit scheda a parte");
    
-   
-   
-   
-   
-     // document.body.appendChild(a);
     
-    //console.info('aggiungo il link al body');
-    //body.addEventListener('click', function(){
-
-        // console.warn(window.location.href);
-        // window.location.href = exitUrl;
-    //});
+     body.appendChild(ancora); // inserisco nel DOM il clickTag
+    
 
 });
 
-   
-/*  
-    <a id="skin-link" href="https://www.google.com" target="_blank">
-        <span>ClickTag Skin</span>
-    </a>
-*/
