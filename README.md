@@ -7,6 +7,6 @@ Per visionare tutte le _ultime modifiche_ effettuate sul codice, potete andare
 - oppure qui per [i banner](BANNERS/) oltre che alle esercitazioni in corso sulle animazioni,
 - e qui per [le skin](SKIN/)
 
-Se volete scrivere domande sui contenuti della lezione, qui presenti, dovrete [registrarvi  su questo sito di Github](https://github.com/signup).
+Se volete scrivere domande sui contenuti della lezione, qui presenti, dovrete [registrarvi  su questo sito di Github](https://github.com/signup), poi cliccare su [Issues](https://github.com/riettotek/W3repo/issues).
 
 Buon Lavoro Ragazzi
