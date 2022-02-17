@@ -1,0 +1,47 @@
+/*******************
+ * FOGLIO DI STILE *
+ *******************/
+ *{box-sizing: border-box;}
+ body,div{margin:0; padding:0;}
+
+div.contenitore{
+    height: 200vh;
+}
+div.contenitore>#uno{
+    height: 100vh;
+}
+
+div.contenitore > div#due{
+    height:500px;
+    width:100vw;
+    background-color: #3d3d62;
+    animation: SpostatiGiu 2s ;
+}
+ 
+
+/****************************
+ * DICHIARAZIONE ANIMAZIONE *
+ ****************************/
+ @keyframes SpostatiGiu {
+    from {transform: translateX(-100vw);}
+   
+    to{transform: translateX(0)}
+ } 
+
+
+
+
+/****************
+ * MEDIAQUERIES *
+ ****************/
+ @media (max-width:798px) AND (min-width:400px){
+
+    div.contenitore{
+        height:300px;
+    }
+
+ }
+
+
+ 
+ 
