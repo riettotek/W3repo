@@ -11,7 +11,7 @@ body{
     padding: 0;
     margin:0;
     padding-top: 100px; /* testatina in alto */
-    position: relative;
+    position: fixed;
    
 }  
 
