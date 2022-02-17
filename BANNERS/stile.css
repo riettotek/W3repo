@@ -3,20 +3,70 @@
  *******************/
  *{box-sizing: border-box;}
  body,div{margin:0; padding:0;}
+.btn {
+    padding: 20px 30px;
+    background-color: rgb(243, 159, 4);
+    font-weight: bold;
+    font-size: 1.3rem;
+    margin: 20px;
+    border: 0.5px solid black;
+    border-radius: 15px;
+    color:rgb(46, 46, 46);
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    max-width:200px;
+   
+}
+.btn:hover{
+    background-color: rgb(172, 113, 5);
+    color: rgb(226, 226, 226);
+}
+.btnDiv{
+    display: flex;
+    justify-content: flex-end;
+}
 
 div.contenitore{
     height: 200vh;
+    background-color: antiquewhite;
 }
 div.contenitore>#uno{
     height: 100vh;
 }
 
-div.contenitore > div#due{
+div#due{
     height:500px;
     width:100vw;
+    padding: 25px 40px;
     background-color: #3d3d62;
     animation: SpostatiGiu 2s ;
+    color:white;
+    overflow: hidden;
 }
+div#due h3{
+    font-size: 2.5rem;
+}
+div#due img{
+    margin:15px;
+    display: block;
+    height: 200px;
+}
+div#due img:hover{
+    transform: scale(1.2);
+    transition: transform .5s ease;
+    /*animation: zoom .5s ease-in-out;*/
+}
+div.article{
+    display: flex;
+    flex-direction: row;
+}
+div.article div.f{
+    display: flex;
+    flex-flow: column;
+}
+
+
  
 
 /****************************
@@ -24,9 +74,9 @@ div.contenitore > div#due{
  ****************************/
  @keyframes SpostatiGiu {
     from {transform: translateX(-100vw);}
-   
     to{transform: translateX(0)}
  } 
+ 
 
 
 
@@ -34,10 +84,10 @@ div.contenitore > div#due{
 /****************
  * MEDIAQUERIES *
  ****************/
- @media (max-width:798px) AND (min-width:400px){
+ @media (max-width:798px){
 
-    div.contenitore{
-        height:300px;
+    div#due h3{
+        font-size: 1.5rem;
     }
 
  }
