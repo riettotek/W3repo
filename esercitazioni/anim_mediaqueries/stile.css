@@ -16,7 +16,7 @@
     text-decoration: none;
     text-align: center;
     max-width:200px;
-   
+
 }
 .btn:hover{
     background-color: rgb(172, 113, 5);
@@ -51,6 +51,7 @@ div#due img{
     margin:15px;
     display: block;
     height: 200px;
+    animation-name: SpostatiGiu1;
 }
 div#due img:hover{
     transform: scale(1.2);
@@ -60,23 +61,30 @@ div#due img:hover{
 div.article{
     display: flex;
     flex-direction: row;
+    animation-name: SpostatiGiu1;
 }
 div.article div.f{
     display: flex;
     flex-flow: column;
+    animation-name: SpostatiGiu1;
 }
 
 
- 
+
 
 /****************************
  * DICHIARAZIONE ANIMAZIONE *
  ****************************/
- @keyframes SpostatiGiu {
+ @keyframes SpostatiGiu1 {
     from {transform: translateX(-100vw);}
     to{transform: translateX(0)}
- } 
- 
+ }
+ @keyframes SpostatiGiu1 {
+    from {opacity:0;}
+    to{opacity:1}
+ }
+
+
 
 
 
@@ -91,7 +99,3 @@ div.article div.f{
     }
 
  }
-
-
- 
- 
